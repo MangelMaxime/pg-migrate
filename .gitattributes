@@ -1,0 +1,3 @@
+* text=auto
+*.lock -diff -merge
+*.lock linguist-generated=true

@@ -1,0 +1,31 @@
+{
+    "name": "@mangelmaxime/pg-migrate",
+    "version": "0.0.0",
+    "description": "PgMigrate",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "type": "module",
+    "engines": {
+        "node": "^12.20.0 || ^14.13.1 || >=16.0.0",
+        "npm": ">=7.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arkance-Optimum/PgMigrate.git"
+    },
+    "author": "Maxime Mangel <Maxime.Mangel@arkance-systems.com>",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/Arkance-Optimum/PgMigrate/issues"
+    },
+    "homepage": "https://github.com/Arkance-Optimum/PgMigrate#readme",
+    "dependencies": {
+        "chalk": "^4.1.2",
+        "dotenv": "^10.0.0",
+        "pg-monitor": "^1.4.1",
+        "pg-promise": "^10.11.0",
+        "yargs": "^17.1.1"
+    }
+}
