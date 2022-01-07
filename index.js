@@ -54,7 +54,7 @@ yargs(hideBin(process.argv))
                 .option(
                     "password",
                     {
-                        alias: "p",
+                        alias: "w",
                         description: "Database user password",
                         type: "string"
                     }
