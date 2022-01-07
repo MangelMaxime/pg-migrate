@@ -1,8 +1,13 @@
 {
     "name": "@mangelmaxime/pg-migrate",
-    "version": "0.0.0",
+    "version": "0.1.0-beta-002",
     "description": "PgMigrate",
     "main": "index.js",
+    "bin": "index.js",
+    "files": [
+        "index.js",
+        "lib/**/*"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -16,7 +21,7 @@
         "url": "git+https://github.com/Arkance-Optimum/PgMigrate.git"
     },
     "author": "Maxime Mangel <Maxime.Mangel@arkance-systems.com>",
-    "license": "UNLICENSED",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/Arkance-Optimum/PgMigrate/issues"
     },
