@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.1.0-beta-003 - 2022-01-07
+
+### Fixed
+
+* Don't fail if the `migrations` folder is missing.
+* Use a different alias for password options: `-w`
+* Fix support of lower version of Node.js
+
 ## 0.1.0-beta-002 - 2021-09-20
 
 ### Added
