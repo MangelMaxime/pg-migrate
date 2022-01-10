@@ -1,6 +1,6 @@
 {
     "name": "@mangelmaxime/pg-migrate",
-    "version": "0.1.0-beta-004",
+    "version": "1.0.0",
     "description": "PgMigrate",
     "bin": {
         "pg-migrate": "cli.js"
