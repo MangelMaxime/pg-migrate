@@ -57,3 +57,15 @@ Options:
                                                     [string] [default: "public"]
   -v, --verbose                 Verbose output        [boolean] [default: false]
 ```
+
+Note:
+
+You can also use the following environment variables to set the connection parameters:
+
+- `PGHOST`
+- `PGPORT`
+- `PGUSER`
+- `PGPASSWORD`
+- `PGDATABASE`
+
+The CLI arguments will override the environment variables.
