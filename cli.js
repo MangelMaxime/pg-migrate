@@ -13,6 +13,7 @@ yargs(hideBin(process.argv))
     .completion()
     .strict()
     .help()
+    .scriptName("pg-migrate")
     .alias("help", "h")
     .command(
         "new <migration-name>",

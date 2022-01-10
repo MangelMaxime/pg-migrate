@@ -6,6 +6,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 
+## 0.1.0-beta-004 - 2022-01-10
+
+### Added
+
+* Add README.md instructions
+* Allow to run the CLI tool by calling `pg-migrate`
+
+### Fixed
+
+* Fix `pg-monitor` attachment when running in verbo mode
+* Fix migration name parser, to capture correctly the number and not just a single digit.
+
+### Changed
+
+* Re-create a new connection before running each migration
+
+    Before, we were just running them in different transactions, but it could cause errors
+    when enabling an extension.
+
+    For example, when enabling `POSTGIS`, the POSTGIS types where not avaible in the futher migrations.
+
 ## 0.1.0-beta-003 - 2022-01-07
 
 ### Fixed

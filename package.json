@@ -2,8 +2,9 @@
     "name": "@mangelmaxime/pg-migrate",
     "version": "0.1.0-beta-003",
     "description": "PgMigrate",
-    "main": "index.js",
-    "bin": "index.js",
+    "bin": {
+        "pg-migrate": "cli.js"
+    },
     "files": [
         "index.js",
         "lib/**/*"
